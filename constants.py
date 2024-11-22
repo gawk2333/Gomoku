@@ -1,0 +1,9 @@
+BATCH_SIZE = 32
+GAMMA = 0.99
+EPS_START = 0.6
+EPS_END = 0.1
+EPS_DECAY = 1000
+TAU = 0.005
+LR = 0.01
+steps_done = 0
+best_invalid = 50

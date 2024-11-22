@@ -1,0 +1,43 @@
+name: gomoku
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2
+  - ca-certificates
+  - libffi
+  - libsqlite
+  - libzlib
+  - openssl
+  - pip
+  - python=3.10.12
+  - tk
+  - wheel
+  - xz
+  - pip:
+      - contourpy
+      - cycler
+      - filelock
+      - fonttools
+      - fsspec
+      - importlib-resources
+      - jinja2
+      - kiwisolver
+      - markupsafe
+      - matplotlib
+      - mpmath
+      - networkx
+      - numpy
+      - packaging
+      - pandas
+      - pillow
+      - pyparsing
+      - python-dateutil
+      - pytz
+      - scipy
+      - six
+      - sympy
+      - torch
+      - tzdata
+      - zipp
+      - gymnasium
